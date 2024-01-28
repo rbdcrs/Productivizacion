@@ -1,5 +1,6 @@
 name: nube_wiki
 channels:
+  - conda-forge
   - defaults
 dependencies:
   - _libgcc_mutex=0.1
@@ -96,6 +97,7 @@ dependencies:
   - soupsieve=2.5
   - sqlite=3.41.2
   - stack_data=0.2.0
+  - stop-words=2018.7.23
   - terminado=0.17.1
   - tinycss2=1.2.1
   - tk=8.6.12
@@ -109,6 +111,7 @@ dependencies:
   - webencodings=0.5.1
   - websocket-client=0.58.0
   - wheel=0.41.2
+  - wikipedia=1.4.0
   - xz=5.4.5
   - yaml=0.2.5
   - zeromq=4.3.5
